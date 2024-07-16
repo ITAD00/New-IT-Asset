@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Asset</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>IT Asset Management</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="assets.html">Assets</a></li>
+                <li><a href="addAsset.html">Add Asset</a></li>
+                <li><a href="vendors.html">Vendors</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="addAsset">
+            <h2>Add New Asset</h2>
+            <form id="assetForm">
+                <label for="assetHolderName">Holder Name:</label>
+                <input type="text" id="assetHolderName" name="assetHolderName" required>
+                <label for="assetType">Asset Type:</label>
+                <input type="text" id="assetType" name="assetType" required>
+                <label for="assetStatus">Asset Status:</label>
+                <input type="text" id="assetStatus" name="assetStatus" required>
+                <label for="hostname">Hostname:</label>
+                <input type="text" id="hostname" name="hostname" required>
+                <label for="productBrand">Product Brand:</label>
+                <input type="text" id="productBrand" name="productBrand" required>
+                <label for="modelNumber">Model Number:</label>
+                <input type="text" id="modelNumber" name="modelNumber" required>
+                <label for="serialNumber">Serial Number:</label>
+                <input type="text" id="serialNumber" name="serialNumber" required>
+                <label for="purchaseDate">Purchase Date:</label>
+                <input type="date" id="purchaseDate" name="purchaseDate" required>
+                <label for="os">OS:</label>
+                <input type="text" id="os" name="os" required>
+                <label for="ram">RAM:</label>
+                <input type="text" id="ram" name="ram" required>
+                <label for="storage">Storage:</label>
+                <input type="text" id="storage" name="storage" required>
+                <label for="processor">Processor:</label>
+                <input type="text" id="processor" name="processor" required>
+                <label for="warranty">Warranty:</label>
+                <input type="text" id="warranty" name="warranty" required>
+                <label for="vendor">Vendor:</label>
+                <input type="text" id="vendor" name="vendor" required>
+                <button type="submit">Add Asset</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
